@@ -111,7 +111,6 @@ Create **SQL-based analytics** that offer detailed insights into:
 
 These insights drive strategic decisions and surface key business metrics.
 
-For a more detailed breakdown, refer to [docs/requirements.md](docs/requirements.md).
 
 ---
 
