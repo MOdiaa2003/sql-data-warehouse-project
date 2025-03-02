@@ -1,3 +1,11 @@
+-- Create a dedicated database for the Data Warehouse project.
+-- Organize data into three layers based on Medallion Architecture.
+-- Bronze schema: stores raw, unprocessed data.
+-- Silver schema: holds cleansed and standardized data.
+-- Gold schema: contains business-ready, modeled data.
+-- This structure supports efficient data integration and analytics.
+
+
 -- Create the DataWarehouse database.
 CREATE DATABASE DataWarehouse;
 
