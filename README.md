@@ -1,4 +1,4 @@
-# sql-data-warehouse-project
+# Data Architecture
 
 ![Project Architecture](docs/Data_warhouse.drawio%20(1).png)
 
