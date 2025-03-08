@@ -1,6 +1,6 @@
 # sql-data-warehouse-project
 
-![Project Architecture](docs/project_architecture.png)
+![Project Architecture](docs/Data_warhouse.drawio (1).png)
 
 - **Bronze Layer:** Raw data ingestion from source systems (ERP, CRM) with minimal or no transformation.
 - **Silver Layer:** Cleaned, standardized, and enriched data for intermediate processing.
