@@ -1,6 +1,6 @@
 # sql-data-warehouse-project
 
-![Project Architecture](docs/Data_warhouse.drawio (1).png)
+![Project Architecture](docs/Data_warhouse.drawio%20(1).png)
 
 - **Bronze Layer:** Raw data ingestion from source systems (ERP, CRM) with minimal or no transformation.
 - **Silver Layer:** Cleaned, standardized, and enriched data for intermediate processing.
@@ -8,7 +8,7 @@
 
 # Data Warehouse & Analytics Project
 
-Welcome to the **Data Warehouse & Analytics Project** repository! This project showcases a comprehensive data warehousing and analytics solution, from ingestion of raw data to delivering actionable insights. By following industry best practices, this repository highlights modern techniques in **Data Engineering**, **Data Modeling**, and **Data Analytics**.
+Welcome to the **Data Warehouse & Analytics Project** repository! This project showcases a comprehensive data warehousing and analytics solution—from raw data ingestion to delivering actionable insights. The project is built using modern data engineering practices and follows the Medallion Architecture (Bronze, Silver, Gold) to ensure clean, reliable data for business intelligence.
 
 ---
 
@@ -27,95 +27,71 @@ Welcome to the **Data Warehouse & Analytics Project** repository! This project s
 ---
 
 ## Introduction
-In today’s data-driven world, organizations rely on efficient data pipelines and robust analytics platforms to make informed decisions. This repository demonstrates a modern approach to building a **Data Warehouse** using the **Medallion Architecture**—Bronze, Silver, and Gold layers—enabling you to:
-
-- Ingest data from various sources (ERP, CRM)  
-- Cleanse and standardize data  
-- Model data for business intelligence  
-- Deliver insights via SQL-based reports and dashboards  
-
-Whether you’re a professional looking to refine your skills or a student eager to learn, this project offers a hands-on experience in designing and implementing an end-to-end data solution.
+In today’s data-driven world, efficient data pipelines and robust analytics platforms are essential for informed decision-making. This repository demonstrates how to build a modern Data Warehouse using a layered approach, enabling:
+- Ingestion of raw data from multiple sources (ERP, CRM)
+- Cleansing, standardization, and enrichment of data
+- Creation of analytical models with fact and dimension views
+- Delivery of insights through SQL-based reporting
 
 ---
 
 ## Data Architecture
-Below is a high-level illustration of the **Medallion Architecture** approach:
+**Medallion Architecture Overview:**
 
-1. **Bronze Layer**  
-   - **Raw Data** stored as-is from CSV files (CRM, ERP).  
-   - **No transformations** applied.  
-   - Data model: *None (as-is)*.  
-   - **Load**: Batch processing, full load, truncate & insert.
+1. **Bronze Layer:**  
+   - **Raw Data:** Ingests data from source systems with no or minimal transformation.
+   - **Storage:** Data is stored as-is, preserving its original format.
 
-2. **Silver Layer**  
-   - **Cleaned & Standardized Data**.  
-   - **Transformations**: Data cleansing, standardization, normalization, derived columns, data enrichment.  
-   - Data model: *None (as-is)*.  
-   - **Load**: Batch processing, full load, truncate & insert.
+2. **Silver Layer:**  
+   - **Cleansed Data:** Data is cleaned, standardized, and enriched.
+   - **Transformation:** Includes necessary data validations and enrichment processes.
 
-3. **Gold Layer**  
-   - **Business-Ready Data**.  
-   - **Transformations**: Data integration, aggregations, business logic.  
-   - Data model: *Star schema, Flat tables, Aggregated tables*.  
-   - **Object Type**: Views (no additional load).
-
-These layers collectively enable a **robust, scalable, and efficient** data warehouse, ready to be consumed by various analytics tools.
+3. **Gold Layer:**  
+   - **Business-Ready Data:** Data is integrated and modeled into dimensions and facts.
+   - **Usage:** Supports reporting, analytics, and business intelligence.
 
 ---
 
 ## Project Overview
 ### Key Components:
-- **Data Architecture**: Implements a Modern Data Warehouse using **Bronze, Silver, and Gold** layers.  
-- **ETL Pipelines**: Extract, transform, and load data from CSV sources into a SQL Server database.  
-- **Data Modeling**: Design **fact** and **dimension** tables for optimal analytical queries.  
-- **Analytics & Reporting**: Generate insights with SQL queries, BI tools, and dashboards.
+- **Data Architecture:** Implements the Medallion Architecture (Bronze, Silver, Gold).
+- **ETL Pipelines:** Extract, transform, and load data from CSV sources into a PostgreSQL data warehouse.
+- **Data Modeling:** Designs fact and dimension tables to support analytical queries.
+- **Analytics & Reporting:** Provides actionable insights through SQL-based analytics and dashboards.
 
 ---
 
 ## Skills & Expertise
 This project is ideal for showcasing or developing expertise in:
-- **SQL Development**  
-- **Data Architecture**  
-- **Data Engineering**  
-- **ETL Pipeline Development**  
-- **Data Modeling**  
-- **Data Analytics**
+- SQL Development
+- Data Architecture & Data Warehousing
+- Data Engineering & ETL Pipeline Development
+- Data Modeling
+- Data Analytics
 
 ---
 
 ## Tools & Resources
-- **Datasets**: CSV files from ERP and CRM systems.  
-- **SQL Server Express**: Lightweight database engine for hosting the warehouse.  
-- **SQL Server Management Studio (SSMS)**: Graphical interface for managing and querying databases.  
-- **Git & GitHub**: Version control and collaboration platform.  
-- **DrawIO**: Create and maintain diagrams for data flow, architecture, and modeling.  
-- **Notion**: Organize project tasks, notes, and documentation.  
-- **Notion Project Steps**: Detailed phases and tasks for the entire project lifecycle.  
-
-All tools listed are **free** to use.
+- **Datasets:** Raw CSV files from ERP and CRM systems.
+- **PostgreSQL:** Database system hosting the data warehouse.
+- **pgAdmin:** Interface for managing and querying PostgreSQL.
+- **Git & GitHub:** Version control and collaboration.
+- **DrawIO:** For creating and updating architecture and data flow diagrams.
+- **Notion:** For organizing project tasks, notes, and documentation.
 
 ---
 
 ## Project Requirements
 ### Data Engineering
-**Objective**  
-Develop a modern data warehouse using SQL Server to centralize sales data, enabling robust analytics and decision-making.
-
-**Specifications**  
-- **Data Sources**: Two CSV files (ERP & CRM).  
-- **Data Quality**: Cleanse data to resolve quality issues.  
-- **Integration**: Combine sources into a single, analytics-friendly data model.  
-- **Scope**: Focus on the latest dataset only; no historization required.  
-- **Documentation**: Provide a clear data model for stakeholders and analytics teams.
+- **Objective:** Build a modern data warehouse to centralize and standardize sales data.
+- **Data Sources:** ERP & CRM CSV files.
+- **Data Quality:** Cleanse data to address quality issues.
+- **Integration:** Consolidate data into an analytics-friendly model.
+- **Scope:** Focus on current data, no historization required.
 
 ### Data Analysis
-**Objective**  
-Create **SQL-based analytics** that offer detailed insights into:
-- **Customer Behavior**  
-- **Product Performance**  
-- **Sales Trends**  
-
-These insights drive strategic decisions and surface key business metrics.
+- **Objective:** Provide insights into customer behavior, product performance, and sales trends.
+- **Deliverables:** SQL-based reports and dashboards to support strategic decisions.
 
 ---
 
