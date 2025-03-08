@@ -132,11 +132,12 @@ data-warehouse-project/
 │   ├── data_flow.drawio                # Data flow diagram
 │   ├── data_models.drawio              # Star schema & other models
 │   ├── naming-conventions.md           # Guidelines for tables, columns, etc.
+│   └── Data_warhouse.drawio (1).png     # Project architecture diagram
 │
 ├── scripts/                            # SQL scripts for ETL & transformations
 │   ├── bronze/                         # Extract & load raw data
 │   ├── silver/                         # Clean & transform data
-│   ├── gold/                           # Create analytical models
+│   └── gold/                           # Create analytical models
 │
 ├── tests/                              # Test scripts & quality checks
 │
