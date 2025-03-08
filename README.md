@@ -1,5 +1,11 @@
 # sql-data-warehouse-project
-Building modern data warehouse using postgres ,including ETL process ,Data modeling &amp; data analytics 
+
+![Project Architecture](docs/project_architecture.png)
+
+- **Bronze Layer:** Raw data ingestion from source systems (ERP, CRM) with minimal or no transformation.
+- **Silver Layer:** Cleaned, standardized, and enriched data for intermediate processing.
+- **Gold Layer:** Business-ready data models (dimensions and facts) for analytics and reporting.
+
 # Data Warehouse & Analytics Project
 
 Welcome to the **Data Warehouse & Analytics Project** repository! This project showcases a comprehensive data warehousing and analytics solution, from ingestion of raw data to delivering actionable insights. By following industry best practices, this repository highlights modern techniques in **Data Engineering**, **Data Modeling**, and **Data Analytics**.
@@ -111,7 +117,6 @@ Create **SQL-based analytics** that offer detailed insights into:
 
 These insights drive strategic decisions and surface key business metrics.
 
-
 ---
 
 ## Repository Structure
@@ -139,4 +144,3 @@ data-warehouse-project/
 ├── LICENSE                             # License information
 ├── .gitignore                          # Ignored files & folders
 └── requirements.txt                    # Dependencies & requirements
-
